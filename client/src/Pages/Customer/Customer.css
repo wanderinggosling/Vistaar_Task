@@ -1,0 +1,20 @@
+.categories{
+    display: flex;
+    justify-content: center;
+}
+
+.categories button{
+    margin-right: 2vh;
+    border-radius: 2vh ;
+    border: none;
+    background-color: grey;
+}
+
+.categories button:hover{
+    background-color: aliceblue;
+}
+
+.table tbody {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: scroll;
+}
